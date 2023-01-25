@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* 여백 초기화 */
+body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,table,th,td,tr,textarea,button,form,figure,figcaption{margin:0; padding:0;}
+
+/* a 링크 초기화 */
+a {color: #222; text-decoration: none;}
+
+body {background-color: #FFFFF9; font-family: 'Nanum Gothic', sans-serif;}
+
+/* 가운데 영역 */
+.container {position: relative; width: 1440px; margin: 0 auto;}
+
+/* 헤더 영역 */
+.headerTitle {text-align: center; font-family: 'Lilita One', cursive;}
+.headerTitle > h1 {font-size: 3.5rem; padding: 10px 0px 5px 0px;} 
+.navLine {border: 0; height: 3px; background: #000000;}
+.nav {text-align: center;}
