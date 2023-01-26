@@ -19,20 +19,52 @@
             <div class="row">
                 <div class="headerTitle">
                     <h1>
-                        <a>NEWJEANS</a>
+                        <a href="index.html">NEWJEANS</a>
                     </h1>
                 </div>
                 <hr class="navLine">
                 <nav class="nav">
                     <div>
-                        <p>데뷔한지</p>
+                        <span>데뷔일로부터</span>
+                        <span>
+                            <script>
+                                const date1 = new Date('7/22/2022')
+                                const date2 = new Date()
+                                const diffTime = Math.abs(date2 - date1)
+                                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
+                        
+                                document.write(diffDays - 1 + "일")
+                            </script>
+                        </span>
                     </div>
-                    <!-- js로 데뷔 시작일부터 오늘까지 계산해서 표현하기 -->
                 </nav>
                 <hr class="navLine">
             </div>
         </div>
     </header>
     <!-- header -->
+
+    <div id="main">
+        <div class="container">
+            <div class="row">
+                <div id="side_left">
+                    <a href="" class="sideContents">OMG 뮤직비디오</a>
+                    <a href="" class="sideContents">Ditto 뮤직비디오</a>
+                </div>
+                <div id="contents">
+                    <a href="">민지</a>
+                    <a href="">하니</a>
+                    <a href="">다니엘</a>
+                    <a href="">해린</a>
+                    <a href="">혜인</a>
+                </div>
+                <div id="side_right">
+                    <a href="" class="sideContents">유퀴즈 영상 </a>
+                    <a href="" class="sideContents">아이돌 인간극장</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
 </body>
 </html>
