@@ -16,33 +16,40 @@
 <body>
     <header id="header">
         <div class="container">
-            <div class="row">
-                <div class="headerTitle">
-                    <h1>
-                        <a href="index.html">NEWJEANS</a>
-                    </h1>
+            <div id="headBox">
+                <div class="company headSide">
+                    <a href="https://hybecorp.com/kor/main">HYBE</a>
                 </div>
-                <hr class="navLine">
-                <nav class="nav">
-                    <div>
-                        <span>데뷔일로부터</span>
-                        <span>
-                            <script>
-                                const date1 = new Date('7/22/2022')
-                                const date2 = new Date()
-                                const diffTime = Math.abs(date2 - date1)
-                                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
-                        
-                                document.write(diffDays - 1 + "일")
-                            </script>
-                        </span>
-                    </div>
-                </nav>
-                <hr class="navLine">
+                <div class="headerTitle">
+                        <a href="index.html">NEWJEANS</a>
+                </div>
+                <div class="company headSide">
+                    <a href="https://ador.world/">ADOR</a>
+                </div>
             </div>
+                <!-- main header -->
         </div>
     </header>
     <!-- header -->
+    <div class="container">
+        <hr class="navLine">
+        <nav class="nav">
+            <div>
+                <span>데뷔일로부터</span>
+                <span>
+                    <script>
+                        const date1 = new Date('7/22/2022')
+                        const date2 = new Date()
+                        const diffTime = Math.abs(date2 - date1)
+                        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
+                
+                        document.write(diffDays - 1 + "일")
+                    </script>
+                </span>
+            </div>
+        </nav>
+        <hr class="navLine">
+    </div>
 
     <div id="main">
         <div class="container">
