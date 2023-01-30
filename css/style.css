@@ -14,17 +14,20 @@ body {background-color: #FFFFF9; font-family: 'Nanum Gothic', sans-serif;}
 /* 헤더 영역 */
 #headBox {display: flex; text-align: center; width: 100%;}
 .company {width: 200px; flex: 1;}
-.headerTitle {flex: 5;}
-.headerTitle > a {margin: auto; font-family: 'Lilita One', curssive; font-size: 3.5rem;}
+.headerTitle {flex: 5; text-align: center;}
+.headerTitle > .title {display: inline-block; text-align: center;}
+.headerTitle > .title > a {margin: auto; font-family: 'Lilita One', curssive; font-size: 3.5rem;}
 .headSide {border: 1px solid #000000; padding: 15px 10px; margin: 10px 0px; font-size: 2.5rem; font-weight: 300;}
 .navLine {border: 0; height: 3px; background: #000000; margin: 10px 0px;}
 .nav {text-align: center;}
 
 /* 메인 영역 */
 #main {padding-top: 20px; text-align: center;}
-#side_left {float: left; width: 210px; border-right: 2px solid #000000;}
-#side_right {float: left; width: 210px; border-left: 2px solid #000000;}
-#contents {float: left; width: 1000px;}
-
-#contents > a {font-size: 1.5rem; font-weight: bold; padding: 0px 30px;}
-.sideContents {display:block; padding: 80px 0px;}
+#side_left {float: left; width: 200px; border-right: 2px solid #000000; padding-right: 20px;}
+#side_left > p {font-size: 1rem; padding: 15px;}
+#side_right {float: left; width: 200px; border-left: 2px solid #000000;}
+#contents {float: left; width: 980px;}
+#contents > a {font-size: 2rem; font-weight: bold; padding: 0px 30px;}
+.sideContents {display:block;}
+.sideContents > img {width: 200px; height: 210px;}
+.leftBox {margin-bottom: 50px;}

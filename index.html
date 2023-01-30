@@ -8,6 +8,7 @@
 
     <!-- css 연결 -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
 
     <!-- font 연결 -->
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nanum+Gothic&display=swap" rel="stylesheet">
@@ -21,16 +22,18 @@
                     <a href="https://hybecorp.com/kor/main">HYBE</a>
                 </div>
                 <div class="headerTitle">
-                        <a href="index.html">NEWJEANS</a>
+                        <div class="title">
+                            <a href="index.html">NEWJEANS</a>
+                        </div>
                 </div>
                 <div class="company headSide">
                     <a href="https://ador.world/">ADOR</a>
                 </div>
             </div>
-                <!-- main header -->
         </div>
     </header>
     <!-- header -->
+
     <div class="container">
         <hr class="navLine">
         <nav class="nav">
@@ -55,9 +58,21 @@
         <div class="container">
             <div class="row">
                 <div id="side_left">
-                    <a href="" class="sideContents">OMG 뮤직비디오</a>
-                    <a href="" class="sideContents">Ditto 뮤직비디오</a>
+                    <p>뉴진스의 뮤직비디오</p>
+                    <div class="leftBox">
+                        <a href="https://www.youtube.com/watch?v=_ZAgIHmHLdc" class="sideContents">
+                            <img src="image/newJeans-omg.jpg" alt="OMG 뮤직비디오">
+                        </a>
+                        <span class="text omg">OMG</span>
+                    </div>
+                    <div class="leftBox">
+                        <a href="https://www.youtube.com/watch?v=pSUydWEqKwE" class="sideContents">
+                            <img src="image/newJeans-Ditto.jpg" alt="Ditto 뮤직비디오">
+                        </a>
+                        <span class="text ditto">Ditto</span>
+                    </div>
                 </div>
+                <!-- 왼쪽 영역 -->
                 <div id="contents">
                     <a href="">민지</a>
                     <a href="">하니</a>
@@ -65,10 +80,12 @@
                     <a href="">해린</a>
                     <a href="">혜인</a>
                 </div>
+                <!-- 중앙 영역 -->
                 <div id="side_right">
                     <a href="" class="sideContents">유퀴즈 영상 </a>
                     <a href="" class="sideContents">아이돌 인간극장</a>
                 </div>
+                <!-- 오른쪽 영역 -->
             </div>
         </div>
     </div>
