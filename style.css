@@ -31,3 +31,20 @@ body {background-color: #FFFFF9; font-family: 'Nanum Gothic', sans-serif;}
 .sideContents {display:block;}
 .sideContents > img {width: 200px; height: 210px;}
 .leftBox {margin-bottom: 50px;}
+
+/* 왼쪽 영역 hover */
+.leftBox {position: relative; display: inline-block;}
+.leftBox > img {max-width: 100%;}
+.leftBox a {display: block; width: auto;}
+.leftBox span.text {position: absolute; top: 50%; left: 0; transform: translateY(-50%);
+    display: none; width: 100%; font-size: 3rem; font-weight: 600; text-align: center;}
+.leftBox span.omg {color: #fff;}
+.leftBox span.ditto {color: #000;}
+.leftBox::before, .leftBox::after{content: ''; position: absolute; top: 50%; left: 50%;
+    width: 90%; height: 90%; transform: translate(-50%, -50%); transition: all .8s;}
+.leftBox::before {border-top: 3px solid #fff; border-bottom: 3px solid #fff; width: 0;}
+.leftBox::after {border-left: 3px solid #fff; border-right: 3px solid #fff; height: 0;}
+
+.leftBox:hover span.text {display: block;}
+.leftBox:hover::before {width: 90%;}
+.leftBox:hover::after {height: 90%;}
