@@ -16,3 +16,7 @@
 .leftBox:hover span.text {display: block;}
 .leftBox:hover::before {width: 90%;}
 .leftBox:hover::after {height: 90%;}
+
+.rightBox span {background:linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #FFD700 50%);
+    background-size: 200%; transition: .35s; color: #000;}
+.rightBox span:hover {background-position: -100% 0;}
