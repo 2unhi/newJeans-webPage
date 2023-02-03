@@ -30,7 +30,7 @@ body {background-color: #FFFFF9; font-family: 'Nanum Gothic', sans-serif;}
 #side_right a {padding: 25px 0px; text-align: justify; line-height: 1.5;}
 #side_right a:hover {text-decoration: underline;}
 #contents {float: left; width: 980px;}
-#contents > a {font-size: 2rem; font-weight: bold; padding: 0px 30px;}
+#contents > .member {font-size: 2rem; font-weight: bold; padding: 0px 30px; border: none; background-color: #FFFFF9;}
 .sideContents {display:block;}
 .sideContents > img {width: 200px; height: 210px;}
 .leftBox {margin-bottom: 50px;}
