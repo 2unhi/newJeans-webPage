@@ -6,7 +6,8 @@ body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,tabl
 /* a 링크 초기화 */
 a {color: #222; text-decoration: none;}
 
-body {background-color: #FFFFF9; font-family: 'Yeon Sung', cursive; padding-top: 120px;}
+body {background-color: #FFFFF9; font-family: 'Yeon Sung', cursive}
+.mainContainer {padding-top: 120px;}
 
 /* 가운데 영역 */
 .container {position: relative; width: 1440px; margin: 0 auto;}
@@ -40,3 +41,8 @@ body {background-color: #FFFFF9; font-family: 'Yeon Sung', cursive; padding-top:
 
 /* 푸터 영역 */
 .footer_info {font-size: 1.5rem; padding: 25px 0px; text-align: center; border-top: 2px solid #000000;}
+
+/* 미니게임 영역 */
+.gameBox {text-align: center;}
+.gameBox p {padding: 30px; font-size: 2rem;}
+.palyGame {height: 30rem; border: 3px solid #000; border-radius: 50px;}
