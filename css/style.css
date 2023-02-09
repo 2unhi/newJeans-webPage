@@ -15,10 +15,10 @@ body {background-color: #FFFFF9; font-family: 'Yeon Sung', cursive}
 /* 헤더 영역 */ 
 #header {position: fixed; top: 0; left: 0; right: 0; z-index: 1; width: 100%; background-color: #FFFFF9;}
 #header .container {border-bottom: 3px solid #000;}
-#headBox {display: flex; text-align: center; width: 100%;}
+#headBox {display: flex; text-align: center;}
 .company {width: 200px; flex: 1;}
-.headerTitle {flex: 5; text-align: center;}
-.headerTitle > .title {display: inline-block; text-align: center;}
+.headerTitle {flex: 5; text-align: center; padding: 20px;}
+.headerTitle > .title {display: inline-block;}
 .headerTitle > .title > a {margin: auto; font-family: 'Lilita One', curssive; font-size: 3.5rem;}
 .headSide {border: 1px solid #000000; padding: 15px 10px; margin: 10px 0px; font-size: 2.5rem; font-weight: 300;}
 .navLine {border: 0; height: 3px; background: #000000; margin: 10px 0px;}
