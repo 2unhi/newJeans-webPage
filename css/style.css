@@ -34,7 +34,7 @@ body {background-color: #FFFFF9; font-family: 'Yeon Sung', cursive}
 #side_right a:hover {text-decoration: underline;}
 #contents {float: left; width: 980px;}
 #contents .member {font-size: 2.5rem; padding: 0px 40px; border: none; background-color: #FFFFF9;
-    font-family: 'Yeon Sung', cursive; font-weight: bold;}
+    font-family: 'Yeon Sung', cursive; font-weight: bold; display: inline-block;}
 .sideContents {display:block; font-size: 1.2rem;}
 .sideContents > img {width: 200px; height: 210px;}
 .leftBox {margin-bottom: 50px;}
