@@ -41,6 +41,7 @@ body {background-color: #FFFFF9; font-family: 'Yeon Sung', cursive}
 
 /* 푸터 영역 */
 .footer_info {font-size: 1.5rem; padding: 25px 0px; text-align: center; border-top: 2px solid #000000;}
+.instagram {width: 20px; height: 20px;}
 
 /* 미니게임 영역 */
 .gameBox {text-align: center;}
