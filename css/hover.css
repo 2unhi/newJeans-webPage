@@ -17,6 +17,12 @@
 .leftBox:hover::before {width: 90%;}
 .leftBox:hover::after {height: 90%;}
 
-.rightBox span {background:linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #FFD700 50%);
+/* .rightBox span {background:linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #FFD700 50%);
     background-size: 200%; transition: .35s; color: #000;}
-.rightBox span:hover {background-position: -100% 0;}
+.rightBox span:hover {background-position: -100% 0;} */
+
+.rightBox .highlight {display: inline-table; position: relative; overflow: hidden;}
+.rightBox .highlight span {position: relative; z-index: 2;}
+.rightBox .highlight::before {content:''; display: block; width: 100%; height: 100%; background: rgba(255, 200, 0, .5);
+    position: absolute; top: 0; left: -100%; transition: all .35s; z-index: 1;}
+.rightBox:hover .highlight::before {left: 0;}
