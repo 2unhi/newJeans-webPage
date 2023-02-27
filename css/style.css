@@ -6,6 +6,9 @@ body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,tabl
 /* a 링크 초기화 */
 a {color: #222; text-decoration: none;}
 
+/* 블릿기호 초기화 */
+ul,li,ol {list-style:none;}
+
 body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 .mainContainer {padding-top: 120px;}
 
