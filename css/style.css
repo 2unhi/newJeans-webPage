@@ -36,8 +36,6 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 #side_right a {padding: 15px 0px; text-align: justify; line-height: 1.3;}
 #side_right a:hover {text-decoration: underline;}
 #contents {float: left; width: 980px;}
-#contents .member {font-size: 3rem; padding: 0px 40px; border: none; background-color: #FFFFF9;
-    font-family: 'Nanum Pen Script', cursive; font-weight: bold; display: inline-block;}
 .sideContents {display:block; font-size: 1.5rem;}
 .sideContents > img {width: 200px; height: 210px;}
 .leftBox {margin-bottom: 50px;}
