@@ -40,6 +40,13 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 .sideContents > img {width: 200px; height: 210px;}
 .leftBox {margin-bottom: 50px;}
 
+/* 멤버 소개 영역 */
+input[id*="memeber"] {display: none;}
+input[id*="memeber"] + label {display: block; padding: 20px; border: 1px solid #232188; border-bottom: 0;
+    color: #fff; font-weight: 900; background: #3634a5; cursor: pointer; position: relative;}
+input[id*="member"] + label em {position: absolute; top: 50%; right: 10px; width: 30px; margin-top: -15px; display: inline-block;}
+input[id*="member"] + label + div {max-height: 0; transition: all .35s; overflow: hidden; background: #ebf8ff; font-size: 1.5rem;}
+
 /* 푸터 영역 */
 .footer_info {font-size: 2rem; padding: 20px 0px 0px 0px; margin: 20px 0px; text-align: center; border-top: 2px solid #000000;}
 .footer_info input {display: none;}
