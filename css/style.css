@@ -29,13 +29,14 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 
 /* 메인 영역 */
 #main {padding-top: 10px; text-align: center; height: 600px;}
-#side_left {float: left; width: 200px; height: 600px; border-right: 2px solid #000000; padding-right: 20px;}
-#side_left  p {font-size: 2rem; padding: 15px;}
-#side_right {float: left; width: 200px; height: 600px; border-left: 2px solid #000000; padding-left: 20px;}
+.main_container {display: flex;}
+.main_container #side_left {flex: 1; height: 600px; border-right: 2px solid #000000; padding-right: 20px;}
+#side_left p {font-size: 2rem; padding: 15px;}
+.main_container #side_right {flex: 1; height: 600px; border-left: 2px solid #000000; padding-left: 20px;}
 #side_right p {font-size: 2rem; font-weight: 400; padding: 10px;}
 #side_right a {padding: 15px 0px; text-align: justify; line-height: 1.3;}
 #side_right a:hover {text-decoration: underline;}
-#contents {float:left; width: 980px;}
+.main_container #contents {flex: 6; text-align: center;}
 .sideContents {display:block; font-size: 1.5rem;}
 .sideContents > img {width: 200px; height: 210px;}
 .leftBox {margin-bottom: 50px;}
