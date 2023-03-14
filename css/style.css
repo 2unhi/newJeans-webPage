@@ -61,7 +61,14 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 .footer_info h2 {padding: 20px; font-size: 2.5rem;}
 .footer_info p {padding: 0px 15px;}
 
-/* 미니게임 영역 */
-.gameBox {text-align: center;}
-.gameBox p {padding: 30px; font-size: 2rem;}
-.palyGame {height: 30rem; border: 3px solid #000; border-radius: 50px;}
+/* 움직이는 뉴진스 */
+@keyframes watch {
+    0% {transform: translate(0);}
+    20% {transform: translate(-2px, 2px);}
+    40% {transform: translate(-2px, -2px);}
+    60% {transform: translate(2px, 2px);}
+    80% {transform: translate(2px, -2px);}
+    100% {transform: translate(0);}
+}
+.move {width: 100px; height: 100px; background: url() center center; animation: watch 0.3s linear infinite both;}
+.move:hover {animation-play-state: paused;}
