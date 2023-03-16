@@ -39,7 +39,13 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 .main_container #contents {flex: 6; text-align: center;}
 .sideContents {display:block; font-size: 1.5rem;}
 .sideContents > img {width: 200px; height: 210px;}
-.leftBox {margin-bottom: 50px;}
+/* .leftBox {margin-bottom: 50px;} */
+.musiclist {max-width: 200px; margin: 0 auto; font-size: 0;}
+.musiclist > li {display: inline-block; vertical-align: top;;}
+.musiclist > li > div {width: auto; padding: 15px;}
+.musiclist > li .screen {display: block; width: auto; position: relative;}
+.musiclist > li .screen img {width: 100%;}
+.musiclist > li .screen .on {position: absolute; top: 0; left: 0; opacity: 0; transition: all .5s;}
 
 /* 멤버 소개 영역 */
 #contents input[id*="member"] {display: none;}
