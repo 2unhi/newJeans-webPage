@@ -79,5 +79,9 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
     80% {transform: translate(2px, -2px);}
     100% {transform: translate(0);}
 }
-.move {width: 100px; height: 100px; background: url() center center; animation: watch 0.3s linear infinite both;}
+.move {width: 200px; height: 200px; background: url() center center; animation: watch 0.3s linear infinite both;
+        font-size: 3rem; font-weight: 400;}
 .move:hover {animation-play-state: paused;}
+.move p {text-align: center;}
+.moveBox {width: 600px; height: 400px; border: 2px solid #000; border-radius: 20px; position: relative;}
+.moveBox .move {position: absolute; margin: 0 auto;}
