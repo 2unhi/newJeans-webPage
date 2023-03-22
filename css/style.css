@@ -41,11 +41,16 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 .sideContents > img {width: 200px; height: 210px;}
 /* .leftBox {margin-bottom: 50px;} */
 .gallerybox {margin: o auto;}
-.gallerybox ul li a {display: block; text-decoration: none; margin: 5px;}
-.gallerybox ul li a .screen {position: relative; overflow: hidden;}
+.gallerybox img {width: 200px; height: 200px;}
+.gallerybox > ul > li > a {display: block; width: auto; text-decoration: none; margin: 5px;}
+.gallerybox > ul > li > a:hover .bottom {top: 52%;}
+.gallerybox > ul > li > a .screen {position: relative; overflow: hidden;}
+.gallerybox > ul > li > a .screen::after {content: ''; display: block; position: absolute; top: 0; left: 0;
+                                            width: 100%; height: 100%; z-index: 1; opacity: 0; transition: all.35s; background: rgba(0, 0, 0, .5);}
+.gallerybox > ul > li > a:hover .screen::after {opacity: 1;}
 .gallerybox ul li a .screen .top {position: absolute; bottom: 150%; left: 30px;
-                                    z-index: 2; color: #fff; font-size: 2rem; font-weight: 900;}
-.gallerybox ul li a .screen .bottom {position: absolute; top: 150%; left: 30px; z-index: 2; color: #fff; font-size: 1.2rem;}
+                                    z-index: 2; color: #fff; font-size: 2rem; font-weight: 900; transition: all .35s;}
+.gallerybox ul li a .screen .bottom {position: absolute; top: 150%; left: 30px; z-index: 2; color: #fff; font-size: 1.2rem; transition: all .35s;}
 .gallerybox ul li a h3 {font-size: 1.5rem; text-align: center; padding: 15px; color: #000;}
 
 /* 멤버 소개 영역 */
