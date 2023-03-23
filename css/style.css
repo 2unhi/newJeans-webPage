@@ -86,3 +86,10 @@ body {background-color: #FFFFF9; font-family: 'Nanum Pen Script', cursive;}
 .move p {text-align: center;}
 .moveBox {width: 600px; height: 400px; border: 2px solid #000; border-radius: 20px; position: relative;}
 .moveBox .move {position: absolute; margin: 0 auto;}
+
+.moveBox .checkbox input {display: none;}
+.moveBox .checkbox span {display: inline-block; vertical-align: middle; cursor: pointer;}
+.moveBox .checkbox .icon {position: relative; width: 17px; height: 17px; border: 1px solid #000; transition: background 0.1s ease;}
+.moveBox .checkbox .icon::after {content: ''; position: absolute; top: 1px; left: 5px; width: 5px; height: 11px; border-right: 2px solid #fff; border-bottom: 2px solid #fff;
+                                    transform: rotate(45deg) scale(0); transition: all 0.3s ease; transition-delay: 0.15s; opacity: 0;}
+.moveBox .checkbox .text {margin-left: 5px;}
