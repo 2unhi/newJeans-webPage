@@ -28,7 +28,8 @@ body {background-color: #dcdcdc; font-family: 'Song Myung', serif;}
 .nav {text-align: center; font-size: 2rem;}
 
 /* 메인 영역 */
-#main {padding-top: 10px; text-align: center; height: 700px;}
+#main {padding-top: 10px; text-align: center; height: 760px;}
+.member_click p {text-align: center; font-size: 1.6rem; padding: 20px 0px;}
 .inBox {display: inline-block; padding: 15px 55px;}
 .inBox img {width: 250px; height: 250px;}
 .inBox h1 {font-style: 3rem;}
