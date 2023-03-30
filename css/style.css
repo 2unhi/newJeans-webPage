@@ -45,3 +45,16 @@ body {background-color: #dcdcdc; font-family: 'Song Myung', serif;}
 .footer_info input + label + div label {background: #333; color: #fff; padding: 15px;}
 .footer_info h2 {padding: 20px; font-size: 2rem;}
 .footer_info p {padding: 0px 15px;}
+
+/* 뉴진스 토끼 페이지 */
+@keyframes watch {
+    0% {transform: translate(0);}
+    20% {transform: translate(-2px, 2px);}
+    40% {transform: translate(-2px, -2px);}
+    60% {transform: translate(2px, 2px);}
+    80% {transform: translate(2px, -2px);}
+    100% {transform: translate(0);}
+}
+.move {width: 100px; height: 100px; background: url() center center; animation: watch 0.3s linear infinite both;}
+.move img {width: 300px; height: 400px;}
+.move:hover {animation-play-state: paused;}
